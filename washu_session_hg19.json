@@ -1,97 +1,86 @@
+cat > washu_session_hg19.json << 'EOF'
 {
   "genome": "hg19",
   "position": "chr1:1000000-2000000",
   "tracks": [
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/EBNA2.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/EBNA2.bw",
       "name": "EBNA2 ChIP-seq",
-      "height": 80,
-      "color": "#FF6B6B"
+      "height": 80
     },
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/E2on_H3K27ac.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/E2on_H3K27ac.bw",
       "name": "E2on H3K27ac",
-      "height": 80,
-      "color": "#4ECDC4"
+      "height": 80
     },
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/E2off_H3K27ac.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/E2off_H3K27ac.bw",
       "name": "E2off H3K27ac",
-      "height": 80,
-      "color": "#95E1D3"
+      "height": 80
     },
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/E2on_CTCF.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/E2on_CTCF.bw",
       "name": "E2on CTCF",
-      "height": 80,
-      "color": "#F38181"
+      "height": 80
     },
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/E2off_CTCF.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/E2off_CTCF.bw",
       "name": "E2off CTCF",
-      "height": 80,
-      "color": "#AA96DA"
+      "height": 80
     },
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/E2on_ATACseq.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/E2on_ATACseq.bw",
       "name": "E2on ATAC-seq",
-      "height": 80,
-      "color": "#FCBAD3"
+      "height": 80
     },
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/E2off_ATACseq.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/E2off_ATACseq.bw",
       "name": "E2off ATAC-seq",
-      "height": 80,
-      "color": "#FFFFD2"
+      "height": 80
     },
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/E2on_RNAseq.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/E2on_RNAseq.bw",
       "name": "E2on RNA-seq",
-      "height": 80,
-      "color": "#A8D8EA"
+      "height": 80
     },
     {
       "type": "bigwig",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/E2off_RNAseq.bw",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/E2off_RNAseq.bw",
       "name": "E2off RNA-seq",
-      "height": 80,
-      "color": "#FFAAA5"
+      "height": 80
     },
     {
       "type": "longrange",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/EBNA2_on_H3K27ac_HiChIP_1.interaction.txt.gz",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/EBNA2_on_H3K27ac_HiChIP_1.interaction.txt.gz",
       "name": "E2on HiChIP Rep1",
-      "height": 150,
-      "color": "#3498db"
+      "height": 150
     },
     {
       "type": "longrange",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/EBNA2_on_H3K27ac_HiChIP_2.interaction.txt.gz",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/EBNA2_on_H3K27ac_HiChIP_2.interaction.txt.gz",
       "name": "E2on HiChIP Rep2",
-      "height": 150,
-      "color": "#2980b9"
+      "height": 150
     },
     {
       "type": "longrange",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/EBNA2off_H3K27ac_HiChIP_1.interaction.txt.gz",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/EBNA2off_H3K27ac_HiChIP_1.interaction.txt.gz",
       "name": "E2off HiChIP Rep1",
-      "height": 150,
-      "color": "#e74c3c"
+      "height": 150
     },
     {
       "type": "longrange",
-      "url": "https://github.com/v8sy/EBNA2_on-off-BW-file/raw/main/EBNA2_off_H3K27ac_HiChIP_2.interaction.txt.gz",
+      "url": "https://v8sy.github.io/EBNA2_on-off-BW-file/EBNA2_off_H3K27ac_HiChIP_2.interaction.txt.gz",
       "name": "E2off HiChIP Rep2",
-      "height": 150,
-      "color": "#c0392b"
+      "height": 150
     }
   ]
 }
+EOF
